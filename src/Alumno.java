@@ -6,6 +6,22 @@ public class Alumno {
         this.nombre = nombre;
     }
 
+    public void setCalif1(double calif1) {
+        this.calif1 = calif1;
+    }
+
+    public void setCalif2(double calif2) {
+        this.calif2 = calif2;
+    }
+
+    public void setCalif3(double calif3) {
+        this.calif3 = calif3;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
     double calculaPromedio(){
         return (calif1+calif2+calif3)/3;
     }
